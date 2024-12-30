@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.MyCart" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- צבעים עיקריים -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryContainer">@color/primaryContainerColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainerColor</item>
+
+        <!-- צבע רקע -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/backgroundColor</item>
+
+        <!-- טקסט וצבעי פעולה -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnBackground">@color/textColorPrimary</item>
+
+        <!-- צבעי סרגלים -->
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/backgroundColor</item>
+    </style>
+
+    <!-- ערכת נושא ראשית -->
+    <style name="Theme.MyCart" parent="Base.Theme.MyCart" />
+</resources>

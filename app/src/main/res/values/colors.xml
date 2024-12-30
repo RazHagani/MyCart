@@ -1,0 +1,34 @@
+<resources>
+    <!-- צבעים עיקריים -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryContainerColor">#BB86FC</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="secondaryContainerColor">#018786</color>
+
+    <!-- רקע -->
+    <color name="backgroundColor">#F5F5F5</color>
+
+    <!-- טקסט -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+
+    <!-- כהה -->
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="primaryContainerDarkColor">#3700B3</color>
+    <color name="secondaryDarkColor">#03DAC5</color>
+    <color name="secondaryContainerDarkColor">#018786</color>
+
+    <!-- רקע -->
+    <color name="backgroundDarkColor">#121212</color>
+
+    <!-- טקסט -->
+    <color name="textColorPrimaryDark">#FFFFFF</color>
+    <color name="textColorSecondaryDark">#B3B3B3</color>
+
+    <!-- כהה -->
+
+    <color name="errorColor">#B00020</color>
+    <color name="successColor">#4CAF50</color>
+</resources>

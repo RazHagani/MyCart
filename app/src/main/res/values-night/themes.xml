@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Dark Mode -->
+    <style name="Base.Theme.MyCart" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- צבעים עיקריים -->
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorPrimaryContainer">@color/primaryContainerDarkColor</item>
+        <item name="colorSecondary">@color/secondaryDarkColor</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainerDarkColor</item>
+
+        <!-- צבע רקע -->
+        <item name="android:windowBackground">@color/backgroundDarkColor</item>
+        <item name="colorSurface">@color/backgroundDarkColor</item>
+
+        <!-- צבעי טקסט -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnBackground">@color/textColorPrimaryDark</item>
+
+        <!-- צבעי סרגלים -->
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/backgroundDarkColor</item>
+    </style>
+
+    <!-- ערכת נושא ראשית -->
+    <style name="Theme.MyCart" parent="Base.Theme.MyCart" />
+</resources>
